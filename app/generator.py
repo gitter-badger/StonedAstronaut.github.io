@@ -12,8 +12,8 @@ from werkzeug.utils import cached_property
 from werkzeug.contrib.atom import AtomFeed
 from flask.ext.frozen import Freezer
 
-FREEZER_BASE_URL = 'StonedAstronaut.github.io'
-FREEZER_DESTINATION_IGNORE = ['.git*', 'CNAME']
+FREEZER_BASE_URL = 'http://StonedAstronaut.github.io'
+
 POSTS_FILE_EXTENSION = '.md'
 
 
@@ -123,8 +123,7 @@ freezer = Freezer(app)
 @app.template_filter('date')
 def format_date(value, format='%B %d, %Y'):
     return value.strftime(format)
-DEBUG = True
-POSTS_FILE_EXTENSION = '.md'
+
 
 @app.route('/')
 def index():
