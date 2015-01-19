@@ -14,7 +14,7 @@ from flask.ext.frozen import Freezer
 
 FREEZER_BASE_URL = 'http://StonedAstronaut.github.io'
 FREEZER_DESTINATION = '../'
-FREEZER_DESTINATION_IGNORE = ['.git*', 'CNAME']
+FREEZER_DESTINATION_IGNORE = ['.git*', 'CNAME', 'app/']
 POSTS_FILE_EXTENSION = '.md'
 
 
