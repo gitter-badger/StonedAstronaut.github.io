@@ -7,6 +7,27 @@
   <link href="http://StonedAstronaut.github.io/feed.atom" rel="self" />
   <generator>Werkzeug</generator>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
+    <title type="text">post</title>
+    <id>http://stonedastronaut.github.io/blog/post/</id>
+    <updated>2015-01-19T00:00:00Z</updated>
+    <published>2015-01-19T00:00:00Z</published>
+    <link href="http://stonedastronaut.github.io/blog/post/" />
+    <author>
+      <name>Kalmykov Petr</name>
+    </author>
+    <content type="html">&lt;h1&gt;asdf&lt;/h1&gt;
+&lt;h2&gt;aa&lt;/h2&gt;
+&lt;h3&gt;asdf&lt;/h3&gt;
+&lt;p&gt;asdf
+sdf
+f
+as
+df
+    :::python
+    if x is not y:
+        return azaza&lt;/p&gt;</content>
+  </entry>
+  <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">World is calling</title>
     <id>http://stonedastronaut.github.io/blog/world/</id>
     <updated>2015-01-19T00:00:00Z</updated>
