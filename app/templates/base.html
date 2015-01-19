@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    {% block head %}
+        <title>Управление БД</title>
+    {% endblock head %}
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/syntax.css') }}"/>
+    <!-- atom feed -->
+    <link href="{{ url_for('feed') }}"
+      rel="alternate"
+      title="Recent Changes"
+      type="application/atom+xml">
+</head>
+<body>
+
+    {% block content %}{% endblock content %}
+
+</body>
+</html>
