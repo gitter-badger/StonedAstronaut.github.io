@@ -1,6 +1,6 @@
 title: new post
 date: 2015-01-19
-published: 123
+published: True
 
 #asdf
 
