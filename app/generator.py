@@ -13,8 +13,8 @@ from werkzeug.contrib.atom import AtomFeed
 from flask.ext.frozen import Freezer
 
 FREEZER_BASE_URL = 'http://StonedAstronaut.github.io'
-FREEZER_DESTINATION_IGNORE = ['.git*', 'CNAME', 'app/']
 FREEZER_DESTINATION = '../'
+FREEZER_DESTINATION_IGNORE = ['.git*', 'CNAME']
 POSTS_FILE_EXTENSION = '.md'
 
 
