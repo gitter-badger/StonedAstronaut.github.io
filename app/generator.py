@@ -12,7 +12,7 @@ from werkzeug.utils import cached_property
 from werkzeug.contrib.atom import AtomFeed
 from flask.ext.frozen import Freezer
 
-FREEZER_BASE_URL = 'http://flask.petr'
+FREEZER_BASE_URL = 'StonedAstronaut.github.io'
 FREEZER_DESTINATION_IGNORE = ['.git*', 'CNAME']
 POSTS_FILE_EXTENSION = '.md'
 
