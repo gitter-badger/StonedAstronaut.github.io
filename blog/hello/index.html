@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    
+    <title>Приветствую на своем блоге</title>
+    <link rel="stylesheet" href="/static/css/post.css"/>
+
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/static/css/base.css"/>
+    <link rel="stylesheet" href="/static/css/syntax.css"/>
+    <!-- atom feed -->
+    <link href="/feed.atom"
+      rel="alternate"
+      title="Recent Changes"
+      type="application/atom+xml">
+</head>
+<body>
+
+    
+<!-- header section -->
+<div id="header">
+    <h1>Приветствую на своем блоге</h1>
+    
+    <h3 id="date">20-01-2015</h3>
+</div>
+
+<!-- content section -->
+<div id="content">
+    <p>Привет.
+Этот блог я написал по видео урокам tuts+. Для написания использовался язык python3.4, микрофреймворк flask 0.9, для заготовок статей - markdown, для генерации статических страниц - Frozen-Flask, для подстветки синтаксиса кода на страницах блога - Pygments.</p>
+<p>Пример кода:</p>
+<div class="codehilite"><pre>   :::python
+   @app.route(&#39;/&#39;)
+   def index():
+       return render_template(&#39;index.html&#39;, posts=blog.posts)
+</pre></div>
+</div>
+
+
+</body>
+</html>
