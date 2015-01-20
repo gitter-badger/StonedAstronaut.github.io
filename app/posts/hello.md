@@ -7,7 +7,7 @@ published: True
 
 Пример кода:
 
-       :::python
-       @app.route('/')
-       def index():
-           return render_template('index.html', posts=blog.posts)
+    :::python
+    @app.route('/')
+    def index():
+       return render_template('index.html', posts=blog.posts)
