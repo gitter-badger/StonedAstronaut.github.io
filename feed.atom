@@ -16,24 +16,4 @@
       <name>Kalmykov Petr</name>
     </author>
   </entry>
-  <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
-    <title type="text">post</title>
-    <id>http://stonedastronaut.github.io/blog/post/</id>
-    <updated>2015-01-19T00:00:00Z</updated>
-    <published>2015-01-19T00:00:00Z</published>
-    <link href="http://stonedastronaut.github.io/blog/post/" />
-    <author>
-      <name>Kalmykov Petr</name>
-    </author>
-  </entry>
-  <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
-    <title type="text">World is calling</title>
-    <id>http://stonedastronaut.github.io/blog/world/</id>
-    <updated>2015-01-19T00:00:00Z</updated>
-    <published>2015-01-19T00:00:00Z</published>
-    <link href="http://stonedastronaut.github.io/blog/world/" />
-    <author>
-      <name>Kalmykov Petr</name>
-    </author>
-  </entry>
 </feed>
