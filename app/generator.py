@@ -51,8 +51,8 @@ class SortedDict(collections.MutableMapping):
         for key in self._keys:
             yield key
 
-    def __repr__(self):
-        return '%s(%s)' % (self.__class__.__name__, self._items)
+    # def __repr__(self):
+    #     return '%s(%s)' % (self.__class__.__name__, self._items)
 
 
 class Blog(object):
@@ -142,11 +142,11 @@ def feed():
     feed = AtomFeed('Recent Articles',
                     feed_url=request.url,
                     url=request.url_root)
-    posts = blog.posts[:10]
+    post_view = blog.posts
+    posts = list(post_view)[:10] # for python 3. for python2 remove list
     title = lambda p: '%s: %s' % (p.title, p.subtitle) if hasattr(p, 'subtitle') else p.title
     for post in posts:
         feed.add(title(post),
-                 unicode(post.html),
                  content_type='html',
                  author='Kalmykov Petr',
                  url=post.url(_external=True),
