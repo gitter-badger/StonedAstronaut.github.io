@@ -3,5 +3,7 @@ date: 2015-01-28
 published: True
 
 Чтобы создать wiki страницу в vk.com, необходимо перейти по ссылке следующего вида:
+
 http://vk.com/pages?oid=-{Community_id}&p={Name_of_page} 
+
 где {Community_id} - id паблика или группы, а {Name_of_page} - название страницы, которую необходио создать.
