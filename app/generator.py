@@ -51,9 +51,6 @@ class SortedDict(collections.MutableMapping):
         for key in self._keys:
             yield key
 
-    # def __repr__(self):
-    #     return '%s(%s)' % (self.__class__.__name__, self._items)
-
 
 class Blog(object):
     def __init__(self, app, root_dir='', file_ext=None):
