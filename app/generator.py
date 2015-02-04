@@ -144,6 +144,7 @@ def feed():
     title = lambda p: '%s: %s' % (p.title, p.subtitle) if hasattr(p, 'subtitle') else p.title
     for post in posts:
         feed.add(title(post),
+                 str('post.html'),
                  content_type='html',
                  author='Kalmykov Petr',
                  url=post.url(_external=True),
