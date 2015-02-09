@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    
+    <title>Backup hdd средствами GNU Linux</title>
+    <link rel="stylesheet" href="/static/css/post.css"/>
+
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/static/css/base.css"/>
+    <link rel="stylesheet" href="/static/css/syntax.css"/>
+    <!-- atom feed -->
+    <link href="/feed.atom"
+      rel="alternate"
+      title="Recent Changes"
+      type="application/atom+xml">
+</head>
+<body>
+
+    
+<!-- header section -->
+<div id="header">
+	<a href="/">index</a>
+    <h1>Backup hdd средствами GNU Linux</h1>
+    
+    <h3 id="date">09-02-2015</h3>
+</div>
+
+<!-- content section -->
+<div id="content">
+    <p>После теста hdd можно определить, пора ли менять диск или нет.</p>
+<p>Если время пришло, то тогда необходимо перенести со старого жесткого всю инфу на новый.</p>
+<p>Из гуглежа, стало ясно, чо использование обычного dd не "кошегно". Ъ использовать <strong>GNU ddrescue</strong>. Команда для backup'а выглядит следующим образом:</p>
+<div class="codehilite"><pre><span class="c"># ddrescue /dev/sdX /pth_to_backup/disk.img /pth_to_backup/disk.img.log</span>
+</pre></div>
+
+
+<p>Можно делать backup как раздела, так и всего hdd.</p>
+<p>Для просмотра содержимого <strong>раздела</strong> используем следующую команду:</p>
+<div class="codehilite"><pre><span class="c"># mount -o loop /pth_to_backup/drive.img /mnt</span>
+</pre></div>
+
+
+<p>А для <strong>образа физического диска</strong>:</p>
+<div class="codehilite"><pre><span class="c"># losetup --partscan /dev/loop0 drive.img</span>
+<span class="c"># mount /dev/loop0p2 /mnt</span>
+</pre></div>
+
+
+<p>или,</p>
+<div class="codehilite"><pre><span class="c"># kpartx -a /dev/loop0 drive.img</span>
+<span class="c"># mount /dev/mapper/loop0p2 /mnt</span>
+</pre></div>
+
+
+<p>в зависимости от дистра.</p>
+<p>Восстановление из образа:</p>
+<div class="codehilite"><pre><span class="c"># ddrescue --force disk.img /dev/sdxX disk.img.log</span>
+</pre></div>
+
+
+<p>!!!<strong>раздел на который идет восстановление должен быть <em>не</em> меньше файла-образа</strong></p>
+<p>стырено <a href="http://habrahabr.ru/post/233961/">изхабра</a></p>
+</div>
+
+
+</body>
+</html>
