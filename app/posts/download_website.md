@@ -1,6 +1,6 @@
 title: Как выкачать сайт. wget
 date: 2015-02-28
-publidhed: True
+published: True
 
 Для выкачки сайта при помощи wget над использовать сл ключи:
 
