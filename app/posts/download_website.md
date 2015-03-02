@@ -21,5 +21,4 @@ published: True
 
 --no-parent - не скачивать выше указанного каталога/ссылки.
 
-
-стырено (отсюда)[http://ru.najomi.org/_nix/wget]
+стырено [отсюда](http://ru.najomi.org/_nix/wget)
