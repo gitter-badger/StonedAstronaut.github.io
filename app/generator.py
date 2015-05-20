@@ -155,6 +155,7 @@ def feed():
 
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == 'build':
+        app.testing = True
         freezer.freeze()
     else:
         post_files = [post.filepath for post in blog.posts]
