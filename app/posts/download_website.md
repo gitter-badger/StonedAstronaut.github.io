@@ -26,6 +26,7 @@ published: True
 Некоторые сайты, например мне попался один вики-сайт, который таким образом выкачиватся не желал. Для такого сработала такая комбинация ключей:
 
 	:::bash
-	wget -k -p -r -l 1 --restrict-file-names=nocontrol,windows --html-extension -e robots=off http://tralala.com
+	wget -k -p -r -l 1 --restrict-file-names=nocontrol,windows --html-extension \
+	-e robots=off http://tralala.com
 
 Скорее всего это связано с шаблоном ссылок внутри сайта, http://.../index.php@some_page, но я не проверял.
