@@ -19,7 +19,7 @@ published: True
 	# mount -o loop /pth_to_backup/drive.img /mnt
 
 А для **образа физического диска**:
-	
+
 	:::bash
 	# losetup --partscan /dev/loop0 drive.img
 	# mount /dev/loop0p2 /mnt
