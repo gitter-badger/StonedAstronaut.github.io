@@ -43,7 +43,8 @@
 <p>--no-parent - не скачивать выше указанного каталога/ссылки.</p>
 <p>стырено <a href="http://ru.najomi.org/_nix/wget">отсюда</a></p>
 <p>Некоторые сайты, например мне попался один вики-сайт, который таким образом выкачиватся не желал. Для такого сработала такая комбинация ключей:</p>
-<div class="codehilite"><pre>wget -k -p -r -l <span class="m">1</span> --restrict-file-names<span class="o">=</span>nocontrol,windows --html-extension -e <span class="nv">robots</span><span class="o">=</span>off http://tralala.com
+<div class="codehilite"><pre>wget -k -p -r -l <span class="m">1</span> --restrict-file-names<span class="o">=</span>nocontrol,windows --html-extension <span class="se">\</span>
+-e <span class="nv">robots</span><span class="o">=</span>off http://tralala.com
 </pre></div>
 
 
