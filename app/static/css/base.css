@@ -49,3 +49,7 @@ blockquote:before {
 blockquote p {
     display: inline;
 }
+
+footer a:hover {
+    border-style: none;
+}
