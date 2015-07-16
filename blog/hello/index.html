@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    
+    <title>Приветствую на своем блоге</title>
+    <link rel="stylesheet" href="/static/css/post.css"/>
+
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/static/css/base.css"/>
+    <link rel="stylesheet" href="/static/css/syntax.css"/>
+    <!-- atom feed -->
+    <link href="/feed.atom"
+      rel="alternate"
+      title="Recent Changes"
+      type="application/atom+xml">
+</head>
+<body>
+
+    
+<!-- header section -->
+<div id="header">
+	<a href="/">index</a>
+    <h1>Приветствую на своем блоге</h1>
+    
+    <h3 id="date">20-01-2015</h3>
+</div>
+
+<!-- content section -->
+<div id="content">
+    <p>Привет.</p>
+<p>Этот блог я написал по видео урокам tuts+. Для написания использовался язык python3.4, микрофреймворк flask 0.9, для заготовок статей - markdown, для генерации статических страниц - Frozen-Flask, для подстветки синтаксиса кода на страницах блога - Pygments.</p>
+<p>Пример кода:</p>
+<div class="codehilite"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
+   <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;index.html&#39;</span><span class="p">,</span> <span class="n">posts</span><span class="o">=</span><span class="n">blog</span><span class="o">.</span><span class="n">posts</span><span class="p">)</span>
+</pre></div>
+</div>
+
+
+    <a href="https://plus.google.com/u/0/113483139834962824849">g+</a>
+</body>
+</html>

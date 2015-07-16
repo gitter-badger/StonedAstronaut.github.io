@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    
+    <title>Новые команды в Linux для старых решений</title>
+    <link rel="stylesheet" href="/static/css/post.css"/>
+
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/static/css/base.css"/>
+    <link rel="stylesheet" href="/static/css/syntax.css"/>
+    <!-- atom feed -->
+    <link href="/feed.atom"
+      rel="alternate"
+      title="Recent Changes"
+      type="application/atom+xml">
+</head>
+<body>
+
+    
+<!-- header section -->
+<div id="header">
+	<a href="/">index</a>
+    <h1>Новые команды в Linux для старых решений</h1>
+    
+    <h3 id="date">20-05-2015</h3>
+</div>
+
+<!-- content section -->
+<div id="content">
+    <p>Собственно копипаста <a href="http://bneijt.nl/blog/post/new-linux-commands-for-old-habbits/">отсюда</a></p>
+<h5>вместо <em>netstat</em> используем <em>ss</em>:</h5>
+<div class="codehilite"><pre>ss -lpn
+</pre></div>
+
+
+<h5>вместо <em>ifconfig</em> используем <em>ip addr</em>:</h5>
+<p>Раньше для вкл/выкл определенного интерфейса использовали</p>
+<div class="codehilite"><pre>ifconfig eth0 up
+</pre></div>
+
+
+<p>теперь так:</p>
+<div class="codehilite"><pre>ip link <span class="nb">set </span>dev eth0 up
+</pre></div>
+
+
+<p>Для конфигурирования интерфейса:</p>
+<div class="codehilite"><pre>ifconfig eth0 10.0.0.2/16
+</pre></div>
+
+
+<p>теперь:</p>
+<div class="codehilite"><pre>ip addr dev eth0 add 10.0.0.2/16
+</pre></div>
+
+
+<h5>вместо <em>ps aux | grep ...</em> используем <em>pgrep -af</em></h5>
+<div class="codehilite"><pre>ps aux <span class="p">|</span> grep rtorrent
+</pre></div>
+
+
+<p>теперь:</p>
+<div class="codehilite"><pre>pgrep -af rtorrent
+</pre></div>
+</div>
+
+
+    <a href="https://plus.google.com/u/0/113483139834962824849">g+</a>
+</body>
+</html>
