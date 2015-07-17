@@ -4,12 +4,14 @@ published: True
 
 Собственно копипаста [отсюда](http://bneijt.nl/blog/post/new-linux-commands-for-old-habbits/)
 
-##### вместо *netstat* используем *ss*:
+***
+
+### вместо *netstat* используем *ss*:
 
     :::bash
     ss -lpn
 
-##### вместо *ifconfig* используем *ip addr*:
+### вместо *ifconfig* используем *ip addr*:
 
 Раньше для вкл/выкл определенного интерфейса использовали
 
@@ -31,7 +33,7 @@ published: True
     :::bash
 	ip addr dev eth0 add 10.0.0.2/16
 
-##### вместо *ps aux | grep ...* используем *pgrep -af*
+### вместо *ps aux | grep ...* используем *pgrep -af*
 
 	:::bash
 	ps aux | grep rtorrent

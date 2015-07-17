@@ -62,8 +62,8 @@
     <author>
       <name>Petr Kalmykov</name>
     </author>
-    <content type="html">&lt;p&gt;52 вопроса, которые вы должны задать на собеседовании&lt;/p&gt;
-&lt;p&gt;Вы, наверное, уже знаете, что интервью — это не просто очеред...</content>
+    <content type="html">&lt;hr /&gt;
+&lt;p&gt;Вы, наверное, уже знаете, что интервью — это не просто очередной этап при устройстве на работу, это также ваша возм...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Новые команды в Linux для старых решений</title>
@@ -75,7 +75,8 @@
       <name>Petr Kalmykov</name>
     </author>
     <content type="html">&lt;p&gt;Собственно копипаста &lt;a href=&quot;http://bneijt.nl/blog/post/new-linux-commands-for-old-habbits/&quot;&gt;отсюда&lt;/a&gt;&lt;/p&gt;
-&lt;h5&gt;вместо &lt;e...</content>
+&lt;hr /&gt;
+&lt;h3&gt;вм...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Построение связей в SQLAlchemy</title>
@@ -86,10 +87,11 @@
     <author>
       <name>Petr Kalmykov</name>
     </author>
-    <content type="html">&lt;p&gt;Связи в sqlachemy бывают 4-х видов:&lt;/p&gt;
+    <content type="html">&lt;hr /&gt;
+&lt;p&gt;Связи в sqlachemy бывают 4-х видов:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;OTM (one-to-many) - один к многим&lt;/li&gt;
-&lt;li&gt;MTO (many-to-one) - многие к о...</content>
+&lt;li&gt;MTO (many-to-one) - мно...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Как выкачать сайт. wget</title>
@@ -100,8 +102,9 @@
     <author>
       <name>Petr Kalmykov</name>
     </author>
-    <content type="html">&lt;p&gt;Для выкачки сайта при помощи wget над использовать сл ключи:&lt;/p&gt;
-&lt;div class=&quot;codehilite&quot;&gt;&lt;pre&gt;wget -r -k -l &lt;span class=&quot;m...</content>
+    <content type="html">&lt;hr /&gt;
+&lt;p&gt;Для выкачки сайта при помощи wget над использовать сл ключи:&lt;/p&gt;
+&lt;div class=&quot;codehilite&quot;&gt;&lt;pre&gt;wget -r -k -l &lt;span c...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Как посчитать плотность пикселей (DPI)</title>
@@ -112,9 +115,10 @@
     <author>
       <name>Petr Kalmykov</name>
     </author>
-    <content type="html">&lt;p&gt;Для подсчета DPI воспользуемся формулой:&lt;/p&gt;
+    <content type="html">&lt;hr /&gt;
+&lt;p&gt;Для подсчета DPI воспользуемся формулой:&lt;/p&gt;
 &lt;p&gt;c^2 = a^2 + b^2&lt;/p&gt;
-&lt;p&gt;где c - дагональ экрана умноженая на DPI (inch * dp...</content>
+&lt;p&gt;где c - дагональ экрана умноженая на DPI (in...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Диагностика hdd средствами unix</title>
@@ -125,6 +129,7 @@
     <author>
       <name>Petr Kalmykov</name>
     </author>
-    <content type="html">&lt;p&gt;Здесь я опишу способы проверки hdd, стыренные из других источников, которые мне очень помогли понять, почему у меня тупит ...</content>
+    <content type="html">&lt;hr /&gt;
+&lt;p&gt;Здесь я опишу способы проверки hdd, стыренные из других источников, которые мне очень помогли понять, почему у меня...</content>
   </entry>
 </feed>

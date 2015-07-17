@@ -2,6 +2,8 @@ title: Построение связей в SQLAlchemy
 date: 2015-03-04 9:30:00
 published: True
 
+***
+
 Связи в sqlachemy бывают 4-х видов:
 
 - OTM (one-to-many) - один к многим

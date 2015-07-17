@@ -29,15 +29,16 @@
 
 <!-- content section -->
 <div id="content">
-    <p>Здесь я опишу способы проверки hdd, стыренные из других источников, которые мне очень помогли понять, почему у меня тупит комп.</p>
-<p>Для теста hdd использую 3 утилиты:</p>
+    <hr />
+<p>Здесь я опишу способы проверки hdd, стыренные из других источников, которые мне очень помогли понять, почему у меня тупит комп.</p>
+<p>Для теста <em>hdd</em> использую 3 утилиты:</p>
 <ol>
 <li>smartctl из пакета smartmontools</li>
-<li>hdparm </li>
+<li>hdparm</li>
 <li>badblocks из пакета e2fsprogs</li>
 </ol>
 <p>Все тесты проводить на <strong>НЕ</strong> смонтированном hdd.</p>
-<h4>smartctl:</h4>
+<h3>smartctl:</h3>
 <div class="codehilite"><pre><span class="c"># smartctl -a /dev/sdX</span>
 </pre></div>
 
@@ -47,13 +48,13 @@
 <li>5 Reallocated_Sector_Ct - указывает на количество использованных запасных блоков, заложенных "про запас" в случае когда hdd начинает сыпаться;</li>
 <li>9 Power_On_Hours - название говорит само за себя, сколько бедный hdd отмаслал часов;</li>
 </ul>
-<h4>hdparm:</h4>
+<h3>hdparm:</h3>
 <div class="codehilite"><pre><span class="c"># hdparm -t /dev/sdX</span>
 </pre></div>
 
 
 <p>Команда покажет, скорость записи на hdd. Данную команду необходимо выполнить несколько раз, для б/м достоверной картины.</p>
-<h4>badblocks:</h4>
+<h3>badblocks:</h3>
 <div class="codehilite"><pre><span class="c"># badblocks -vs /dev/sdX</span>
 </pre></div>
 
