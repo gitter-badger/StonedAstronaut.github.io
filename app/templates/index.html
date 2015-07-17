@@ -1,14 +1,13 @@
 {% extends "base.html" %}
 
 {% block head %}
-    <title>blog main page</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}"/>
 {% endblock head %}
 
 {% block content %}
-    <div id="header">
+    <header>
         <h1>Astro blog | programming and etc.</h1>
-    </div>
+    </header>
 
     <div id="posts">
         {% for post in posts %}

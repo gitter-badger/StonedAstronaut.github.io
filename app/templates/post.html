@@ -8,15 +8,14 @@
 
 {% block content %}
 <!-- header section -->
-<div id="header">
-  <br />
-  <a href="/">home page</a>
+<header>
+  <a style="border-style: none" href="/"><img src="{{ url_for('static', filename='img/arrow_l_32x32.png') }}" alt="назад"></a>
   <h1>{{ post.title }}</h1>
     {% if post.subtitle %}
         <h2>{{ post.subtitle }}</h2>
     {% endif %}
     <h3 id="date">{{ post.date|date('%d-%m-%Y') }}</h3>
-</div>
+</header>
 
 <!-- content section -->
 <div id="content">

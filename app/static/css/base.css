@@ -1,5 +1,5 @@
 body {
-    margin: 0px auto;
+    margin: 5px auto;
     width: 600px;
     text-align: center;
     letter-spacing: 0.01em;
@@ -14,7 +14,9 @@ h1, h2 {
     letter-spacing: -0.075em;
 }
 
-h1 { font-size: 40px; }
+h1 {
+    font-size: 40px;
+}
 
 a {
     text-decoration: none;
@@ -50,6 +52,6 @@ blockquote p {
     display: inline;
 }
 
-footer a:hover {
+header a:hover, footer a:hover {
     border-style: none;
 }

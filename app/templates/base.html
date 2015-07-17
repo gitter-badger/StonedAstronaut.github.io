@@ -3,6 +3,7 @@
 <head lang="ru">
     <meta charset="UTF-8">
     {% block head %}
+        <a name="top"></a>
         <title>StonedAstronaut blog</title>
     {% endblock head %}
 
@@ -23,6 +24,7 @@
     <footer>
       <a href="/feed.atom"><img src="{{ url_for('static', filename='img/rss_32x32.png') }}" alt="rss"></a>
       <a href="https://plus.google.com/u/0/113483139834962824849"><img src="{{ url_for('static', filename='img/google_32x32.png') }}" alt="google plus"></a>
+      <a href="#top"><img src="{{ url_for('static', filename='img/arrow_up_32x32.png') }}" alt="наверх"></a>
     </footer>
 </body>
 </html>
