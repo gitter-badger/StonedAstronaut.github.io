@@ -1,5 +1,5 @@
 title: Backup hdd средствами GNU Linux
-date: 2015-02-09
+date: 2015-02-09 19:30:00
 published: True
 
 После теста hdd можно определить, пора ли менять диск или нет.

@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from email.header import _ValueFormatter
+
 __author__ = 'astronaut'
 
 import os
@@ -7,10 +9,12 @@ import collections
 import yaml
 import markdown
 
+
 from flask import Flask, render_template, url_for, abort, request
 from werkzeug.utils import cached_property
 from werkzeug.contrib.atom import AtomFeed
 from flask.ext.frozen import Freezer
+from datetime import datetime
 
 FREEZER_BASE_URL = 'http://StonedAstronaut.github.io'
 FREEZER_DESTINATION = '../'
@@ -119,7 +123,7 @@ freezer = Freezer(app)
 
 
 @app.template_filter('date')
-def format_date(value, format='%B %d, %Y'):
+def format_date(value, format='%d-%m-%Y %H:%M'):
     return value.strftime(format)
 
 

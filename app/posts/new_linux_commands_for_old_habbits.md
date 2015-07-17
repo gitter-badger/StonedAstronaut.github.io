@@ -1,5 +1,5 @@
 title: Новые команды в Linux для старых решений
-date: 2015-05-20
+date: 2015-05-20 18:16:00
 published: True
 
 Собственно копипаста [отсюда](http://bneijt.nl/blog/post/new-linux-commands-for-old-habbits/)
