@@ -136,7 +136,7 @@ def post(path):
 
 @app.route('/feed.atom')
 def feed():
-    feed = AtomFeed('Последние посты...',
+    feed = AtomFeed('StonedAstronaut blog',
                     feed_url=request.url,
                     url=request.url_root)
     post_view = blog.posts
