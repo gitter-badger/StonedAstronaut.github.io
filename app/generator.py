@@ -136,17 +136,17 @@ def post(path):
 
 @app.route('/feed.atom')
 def feed():
-    feed = AtomFeed('Recent Articles',
+    feed = AtomFeed('Последние посты...',
                     feed_url=request.url,
                     url=request.url_root)
     post_view = blog.posts
-    posts = list(post_view)[:10] # for python 3. for python2 remove list
+    posts = list(post_view)[:10]  # for python 3. for python2 remove list
     title = lambda p: '%s: %s' % (p.title, p.subtitle) if hasattr(p, 'subtitle') else p.title
     for post in posts:
         feed.add(title(post),
-                 str('post.html'),
+                 str(post.html[:125] + "..."),
                  content_type='html',
-                 author='Kalmykov Petr',
+                 author='Petr Kalmykov',
                  url=post.url(_external=True),
                  updated=post.date,
                  published=post.date)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title type="text">Recent Articles</title>
+  <title type="text">Последние посты...</title>
   <id>http://StonedAstronaut.github.io/feed.atom</id>
   <updated>2015-07-17T00:00:00Z</updated>
   <link href="http://StonedAstronaut.github.io/" />
@@ -13,9 +13,10 @@
     <published>2015-07-17T00:00:00Z</published>
     <link href="http://stonedastronaut.github.io/blog/support_motivation/" />
     <author>
-      <name>Kalmykov Petr</name>
+      <name>Petr Kalmykov</name>
     </author>
-    <content type="html">post.html</content>
+    <content type="html">&lt;hr /&gt;
+&lt;p&gt;Залог успеха в программировании - это регулярные занятия. Мы собрали самые полезные советы о том, как побороть прок...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Каток никого не ждёт</title>
@@ -24,9 +25,10 @@
     <published>2015-07-17T00:00:00Z</published>
     <link href="http://stonedastronaut.github.io/blog/rink_dont_wait_anybody/" />
     <author>
-      <name>Kalmykov Petr</name>
+      <name>Petr Kalmykov</name>
     </author>
-    <content type="html">post.html</content>
+    <content type="html">&lt;hr /&gt;
+&lt;p&gt;Из всего, что я делаю или использую сегодня, единственное, что у меня осталось общего с моей первой работой — это н...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Джон Резиг - Пишите код каждый день</title>
@@ -35,9 +37,10 @@
     <published>2015-07-17T00:00:00Z</published>
     <link href="http://stonedastronaut.github.io/blog/write_code_everyday/" />
     <author>
-      <name>Kalmykov Petr</name>
+      <name>Petr Kalmykov</name>
     </author>
-    <content type="html">post.html</content>
+    <content type="html">&lt;hr /&gt;
+&lt;p&gt;Прошлой осенью работа над моими побочными проектами зашла в тупик: я практически не продвигался вперёд и у меня ник...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">52 вопроса, которые вы должны задать на собеседовании</title>
@@ -46,9 +49,10 @@
     <published>2015-07-16T00:00:00Z</published>
     <link href="http://stonedastronaut.github.io/blog/52_questions/" />
     <author>
-      <name>Kalmykov Petr</name>
+      <name>Petr Kalmykov</name>
     </author>
-    <content type="html">post.html</content>
+    <content type="html">&lt;p&gt;52 вопроса, которые вы должны задать на собеседовании&lt;/p&gt;
+&lt;p&gt;Вы, наверное, уже знаете, что интервью — это не просто очеред...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Ремесло программиста. Золотые правила</title>
@@ -57,9 +61,9 @@
     <published>2015-07-16T00:00:00Z</published>
     <link href="http://stonedastronaut.github.io/blog/gold_rules/" />
     <author>
-      <name>Kalmykov Petr</name>
+      <name>Petr Kalmykov</name>
     </author>
-    <content type="html">post.html</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Данный пост представляет собой выдержку «золотых правил» из примечательной книги Питера Гудлифа &lt;em&gt;«Ремесло прогр...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Новые команды в Linux для старых решений</title>
@@ -68,9 +72,10 @@
     <published>2015-05-20T00:00:00Z</published>
     <link href="http://stonedastronaut.github.io/blog/new_linux_commands_for_old_habbits/" />
     <author>
-      <name>Kalmykov Petr</name>
+      <name>Petr Kalmykov</name>
     </author>
-    <content type="html">post.html</content>
+    <content type="html">&lt;p&gt;Собственно копипаста &lt;a href=&quot;http://bneijt.nl/blog/post/new-linux-commands-for-old-habbits/&quot;&gt;отсюда&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;вместо &lt;e...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Построение связей в SQLAlchemy</title>
@@ -79,9 +84,12 @@
     <published>2015-03-04T00:00:00Z</published>
     <link href="http://stonedastronaut.github.io/blog/relationships_in_sqlalchemy/" />
     <author>
-      <name>Kalmykov Petr</name>
+      <name>Petr Kalmykov</name>
     </author>
-    <content type="html">post.html</content>
+    <content type="html">&lt;p&gt;Связи в sqlachemy бывают 4-х видов:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OTM (one-to-many) - один к многим&lt;/li&gt;
+&lt;li&gt;MTO (many-to-one) - многие к о...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Как выкачать сайт. wget</title>
@@ -90,9 +98,10 @@
     <published>2015-02-28T00:00:00Z</published>
     <link href="http://stonedastronaut.github.io/blog/download_website/" />
     <author>
-      <name>Kalmykov Petr</name>
+      <name>Petr Kalmykov</name>
     </author>
-    <content type="html">post.html</content>
+    <content type="html">&lt;p&gt;Для выкачки сайта при помощи wget над использовать сл ключи:&lt;/p&gt;
+&lt;div class=&quot;codehilite&quot;&gt;&lt;pre&gt;wget -r -k -l &lt;span class=&quot;m...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Как посчитать плотность пикселей (DPI)</title>
@@ -101,9 +110,11 @@
     <published>2015-02-21T00:00:00Z</published>
     <link href="http://stonedastronaut.github.io/blog/calculate_dpi/" />
     <author>
-      <name>Kalmykov Petr</name>
+      <name>Petr Kalmykov</name>
     </author>
-    <content type="html">post.html</content>
+    <content type="html">&lt;p&gt;Для подсчета DPI воспользуемся формулой:&lt;/p&gt;
+&lt;p&gt;c^2 = a^2 + b^2&lt;/p&gt;
+&lt;p&gt;где c - дагональ экрана умноженая на DPI (inch * dp...</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Backup hdd средствами GNU Linux</title>
@@ -112,8 +123,9 @@
     <published>2015-02-09T00:00:00Z</published>
     <link href="http://stonedastronaut.github.io/blog/backup_and_restore_hdd/" />
     <author>
-      <name>Kalmykov Petr</name>
+      <name>Petr Kalmykov</name>
     </author>
-    <content type="html">post.html</content>
+    <content type="html">&lt;p&gt;После теста hdd можно определить, пора ли менять диск или нет.&lt;/p&gt;
+&lt;p&gt;Если время пришло, то тогда необходимо перенести со ...</content>
   </entry>
 </feed>
