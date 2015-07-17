@@ -18,6 +18,17 @@
     <content type="html">post.html</content>
   </entry>
   <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
+    <title type="text">Каток никого не ждёт</title>
+    <id>http://stonedastronaut.github.io/blog/rink_dont_wait_anybody/</id>
+    <updated>2015-07-17T00:00:00Z</updated>
+    <published>2015-07-17T00:00:00Z</published>
+    <link href="http://stonedastronaut.github.io/blog/rink_dont_wait_anybody/" />
+    <author>
+      <name>Kalmykov Petr</name>
+    </author>
+    <content type="html">post.html</content>
+  </entry>
+  <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
     <title type="text">Джон Резиг - Пишите код каждый день</title>
     <id>http://stonedastronaut.github.io/blog/write_code_everyday/</id>
     <updated>2015-07-17T00:00:00Z</updated>
@@ -100,17 +111,6 @@
     <updated>2015-02-09T00:00:00Z</updated>
     <published>2015-02-09T00:00:00Z</published>
     <link href="http://stonedastronaut.github.io/blog/backup_and_restore_hdd/" />
-    <author>
-      <name>Kalmykov Petr</name>
-    </author>
-    <content type="html">post.html</content>
-  </entry>
-  <entry xml:base="http://StonedAstronaut.github.io/feed.atom">
-    <title type="text">Диагностика hdd средствами unix</title>
-    <id>http://stonedastronaut.github.io/blog/test_hdd/</id>
-    <updated>2015-02-09T00:00:00Z</updated>
-    <published>2015-02-09T00:00:00Z</published>
-    <link href="http://stonedastronaut.github.io/blog/test_hdd/" />
     <author>
       <name>Kalmykov Petr</name>
     </author>
