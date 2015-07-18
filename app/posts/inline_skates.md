@@ -95,4 +95,5 @@ PS: Роллер спорт достаточно экстремальный и, 
 ![Броня USD](/static/img/usd.jpg "Броня USD")
 ![Rollerblade Twister 80](/static/img/twister.jpg "Rollerblade Twister 80")
 ![Seba High Black](/static/img/seba_high.jpg "Seba High Black")
+![Xsjado 2.0 Powerblade](/static/img/xsjado.jpg "Xsjado 2.0 Powerblade")
 ![USD backpack 2014](/static/img/usd_back.jpg "USD backpack 2014")
