@@ -1,4 +1,6 @@
-#posts { line-height: 1.5em; }
+#posts {
+    line-height: 1.5em;
+}
 
 #posts a {
     text-decoration: none;
@@ -13,11 +15,20 @@
     border-style: dotted;
 }
 
+#post {
+    display: table;
+    text-align: justify;
+}
+
 #posts .post-date {
     width: 12em;
     font-size: 0.6em;
     vertical-align: middle;
-    text-align: right;
     color: #999999;
     padding-right: 10px;
+    display: table-cell;
+}
+
+#posts .post-title {
+    display: table-cell;
 }
