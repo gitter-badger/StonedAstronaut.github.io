@@ -22,6 +22,11 @@ h3#date {
     line-height: 1.5em;
 }
 
+#content img {
+    max-width: 100%;
+    height:auto;
+}
+
 .codehilite{
     font-size: 12px;
     font-family: monospace;
